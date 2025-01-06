@@ -11,7 +11,7 @@ function Repo(props: {name: string, description: string, language: string, stars
 
     return (
         <a
-            href={`https://github.com/torbenonconto/${props.name}`}
+            href={`https://github.com/torbenconto/${props.name}`}
             className="flex flex-col h-full thin-border text-[#8b949e] slight-blur p-4 rounded-md shadow-md transition-transform duration-200 hover:scale-105"
         >
             <div className="flex items-center mb-1">
